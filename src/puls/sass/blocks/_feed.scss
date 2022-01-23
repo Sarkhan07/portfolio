@@ -1,0 +1,40 @@
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0d0d0d;
+}
+
+.feed__item {
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .feed__img {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .feed__text {
+        margin-left: 61px;
+        .feed__title {
+            font-weight: bold;
+            font-size: 18px;
+            color: hsl(0, 0%, 5%);
+        }
+        .feed__count {
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+            margin-bottom: 9px;
+        }
+        .feed__descr {
+            font-weight: 300;
+            font-size: 16px;
+            color: #0d0d0d;
+            margin-bottom: 60px;
+        }
+    }
+}

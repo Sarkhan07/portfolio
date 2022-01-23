@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"h1 {\n    font-weight: 900;\n    font-size: 60px;\n    text-align: center;\n    text-transform: uppercase;\n    color: #FFFFFF; }\n"
+	],
+	"names": [],
+	"mappings": ";;AAAA,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,cAAc,EAAE,SAAS;EACzB,KAAK,EAAE,OAAO;CAAG"
+}

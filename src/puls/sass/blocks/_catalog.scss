@@ -1,0 +1,180 @@
+.catalog {
+    padding-bottom: 100px;
+    &__tabs {
+        margin-top: 46px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    &__tab {
+        width: 222px;
+        height: 52px;
+        border: 2px solid #746e6e;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #6b6b6b;
+        line-height: 50px;
+        transform: skewX(-25deg);
+        margin: 0 5px;
+        cursor: pointer;
+        transition: 0.5s all;
+        &:hover {
+            box-shadow: 3px 3px 20px $maincolor;
+            border: none;
+        }
+        div {
+            transform: skewX(25deg);
+        }
+
+        &_active {
+            color: #ffffff;
+            border: none;
+            background: $maincolor;
+        }
+    }
+    &__content {
+        margin-top: 60px;
+        display: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &_active {
+            display: flex;
+        }
+    }
+
+    &-item {
+        width: 270px;
+        min-height: 442px;
+        border: 2px solid #e8e8e8;
+        padding: 20px 20px 26px 20px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        &__img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: 200px;
+        }
+        &__subtitle {
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 25px;
+            text-align: center;
+            color: #0d0d0d;
+        }
+        &__descr {
+            margin-top: 16px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            color: #0d0d0d;
+        }
+
+        &__back {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(calc(-50% - 19px));
+            display: block;
+            color: $maincolor;
+            font-weight: 500;
+            font-size: 14px;
+            text-decoration-line: underline;
+            text-transform: uppercase;
+        }
+
+        &__link {
+            display: block;
+            margin-top: 17px;
+            font-weight: 500;
+            font-size: 14px;
+            text-align: center;
+            text-decoration-line: underline;
+            color: $maincolor;
+            &:hover {
+                color: $maincolor;
+            }
+        }
+        hr {
+            margin-top: 17px;
+            margin-bottom: 22px;
+            background: #e8e8e8;
+            border-bottom: none;
+        }
+
+        &__footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__old-price {
+            font-weight: 300;
+            font-size: 14px;
+            text-decoration-line: line-through;
+            color: #555555;
+            margin-top: 32px;
+        }
+
+        &__price {
+            font-weight: 700;
+            font-size: 20px;
+            color: #050505;
+        }
+
+        &__wrapper {
+            display: flex;
+            width: calc(200% + 40px);
+        }
+        &__content {
+            width: 50%;
+            margin-right: 0px;
+            transform: translateX(-100%);
+            transition: 0.5s all;
+            &_active {
+                transform: translateX(0%);
+                margin-right: 20px;
+            }
+        }
+
+        &__list {
+            position: relative;
+            width: 50%;
+            margin-left: 20px;
+            transform: translateX(0%);
+            transition: 0.5s all;
+            padding-right: 20px;
+            padding-left: 19px;
+            margin-bottom: 0;
+            list-style-type: none;
+            &_active {
+                transform: translateX(-100%);
+                margin-right: 0px;
+            }
+            li {
+                position: relative;
+                font-weight: 300;
+                font-size: 14px;
+                margin-bottom: 20px;
+                color: #555555;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 5px;
+                    height: 5px;
+                    background-color: $maincolor;
+                    left: -14px;
+                    top: 7px;
+                }
+            }
+        }
+    }
+}
