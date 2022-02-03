@@ -15,11 +15,13 @@
 }
 
 .rus {
+    position: absolute;
     
-    margin-top: 2px;
+    top: 50px;
+    left: 20px;
    
     width: 50px;
-    color: #000;
+    color: white;
     background-color: #349fcc;
     padding: 2px;
     a:hover {
@@ -29,5 +31,5 @@
 }
 
 .en {
-    color: black;
+    color: white;
 }
