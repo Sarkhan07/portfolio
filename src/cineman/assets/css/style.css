@@ -1,0 +1,184 @@
+.header,
+a,
+a:hover {
+    color: #f0ad4e;
+    text-decoration: none;
+}
+
+.header h1 {
+    letter-spacing: 15px;
+    font-size: 300%;
+}
+
+.header p {
+    color: white !important;
+    font-size: 90%;
+    letter-spacing: 3px;
+
+}
+
+li a {
+    color: white;
+
+}
+
+li a:hover {
+    color: blue;
+}
+
+.info-block {
+    font-size: 120%;
+
+}
+
+.info-block .badge {
+    font-size: 80%;
+}
+
+.info-block span {
+    margin-right: 3%;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
+.contacts {
+    color: rgb(240, 173, 78);
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: #337ab7;
+}
+
+.table tbody>tr>td.vert-align {
+    vertical-align: middle;
+}
+
+.navbar-inverse {
+    padding: 1%;
+}
+
+.clear {
+    clear: both;
+    height: 63px;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+.film_block {
+    text-align: center;
+
+}
+
+.film_block img {
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
+    width: 100%;
+}
+
+.panel {
+    border: none;
+}
+
+.panel-body {
+    background-color: #f9f9f9;
+}
+
+.sidebar-header {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.list-group-item-warning {
+    color: #8a6d3b;
+    background-color: #f9f9f9;
+}
+
+.list-group-item-warning a {
+    color: blue;
+
+}
+
+.b,
+b:hover {
+    color: rgb(0, 0, 0);
+}
+
+.badge {
+    background-color: black;
+}
+
+.form-control {
+    font-size: 14px;
+    border-radius: 0;
+}
+
+.input-lg {
+    font-size: 14px;
+}
+
+.panel-info>.panel-heading {
+    background-color: #f0ad4e;
+    color: white;
+    border-color: transparent;
+}
+
+.margin-8 {
+    margin-top: 8%;
+}
+
+.film_label {
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+footer {
+    color: #666;
+    background-color: #222;
+    padding: 17px, 0, 18px 0;
+    border-top: 1px solid black;
+}
+
+footer a {
+    color: #999;
+
+}
+
+
+footer a:hover {
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .nav-pills>li {
+        float: none;
+    }
+
+    .nav-pills {
+        text-align: center;
+    }
+
+    header h1 {
+        letter-spacing: 5px;
+        font-size: 100%;
+
+    }
+
+    .header {
+        text-align: center;
+    }
+
+
+}
