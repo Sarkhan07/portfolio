@@ -406,11 +406,12 @@
     }
 }
 
-
-@media (max-width: 390px) {
+@media (min-width: 390px) {
         
-        .promo {
-            background-position-x: 65%;
-         
-    }
+    .promo {
+        background-position-x: 65%;
+     
 }
+}
+
+
