@@ -14,22 +14,18 @@
     
 }
 
-.rus {
+.rimg {
     position: absolute;
-    
+    height: 42px;
+    width: 42px;
     top: 50px;
-    left: 20px;
-   
-    width: 50px;
-    color: white;
-    background-color: #349fcc;
-    padding: 2px;
-    a:hover {
-        color: white;
-        text-decoration: none;
-      }
+    left: 31px;
 }
 
-.en {
-    color: white;
+.iimg {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    top: 52px;
+    left: 30px;
 }
