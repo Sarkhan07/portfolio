@@ -16,3 +16,6 @@ const hamburger = document.querySelector('.hamburger'),
     counter.forEach( (item, i) => {
         lines[i].style.width = item.innerHTML
     });
+
+
+  
